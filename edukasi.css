@@ -1,0 +1,427 @@
+/* Mobile STyle */
+@media (max-width: 768px) {
+    *,body{
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    .navigation{
+        width: 100%;
+        height: 40px;
+        background: #FFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo{
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 90px;
+        height: 29px;
+    }
+
+    .menu_button{
+        margin-top: 12px;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+    /* Menu */
+    .menu{
+        width: 116px;
+        height: 152px;
+        background: #3c9493;
+        padding-top: 12px;
+        position: fixed;
+        right: -200px;
+        border-bottom-left-radius: 30px;
+        top: 0px;
+    }
+
+    .menu_button2{
+        padding-right: 13px;
+    }
+
+    .menu-li3{
+        font-weight: 900;
+    }
+    .menu ul{
+       
+        color: #FFFFFF;
+        text-align: right;
+    }
+
+    .menu li{
+        list-style-type: none;
+        margin: 5px;
+        margin-right: 15px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 450;
+        padding-top: 3px;
+        
+    }
+
+    .menu a{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 13pt;
+    }
+
+    .slide-menu-tampil{
+        right: 0 !important;
+    }
+
+    /* Header */
+    .title{
+        font-family: Montserrat;
+        font-weight: 600;
+        text-align: center;
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 24px;
+    }
+
+    .header_img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .paragraf_div{
+        width: auto;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .paragraf_div p{
+        text-align: justify;
+        margin-bottom: 5%;
+        text-indent: 0.3in;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    /* Body */
+    /* Kekerasan Seksual */
+    
+    .kekerasan_seksual{
+        width: 100%;
+        height: auto;
+    }
+
+    .title_ks, .fs_title{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 23px;
+        margin-left: 5%;
+        margin-top: 20%;
+
+    }
+
+    .img_content{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+
+    .subtitle_ks, .sub1{
+        margin-left: 5%;
+        font-family: Montserrat;
+        font-weight: bolder;
+        font-size: 17px;
+    }
+    
+    .langkah_ks h5, .langkah_bl h5, .cara_menghindari_fs h5{
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+
+    .langkah_ks p, .p_bl_container p, .langkah_bl p, .cara_menghindari_fs p{
+        text-align: justify;
+        margin-bottom: 6%;
+        text-indent: 0.3in;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+    }
+
+    /* Bullying */
+    .title_container, .subtitle_bly{
+        display: flex;
+        flex-direction: row;
+        font-family: Montserrat;
+        margin-left: 5%;
+    }
+
+    .title_bly2{
+        margin-left: 4px;
+        font-style: italic;
+        
+    }
+
+    .sub1{
+       margin-bottom: 10%;
+    } 
+
+    .title_container{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 23px;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+
+    .p_fs_container p, .p_fs7{
+        text-align: justify;
+        margin-bottom: 5%;
+        text-indent: 0.3in;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+    }
+
+    .sumber{
+        display: flex;
+        flex-direction: row;
+        font-family: Montserrat;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        font-size: 11px;
+    }
+
+    .text_sumber_sub{
+        margin-left: 2px;
+        color: blue;
+    }
+
+    #sb_title, #ms_title{
+        font-size: 20px;
+        margin-top: 9%;
+    }
+}
+
+/* Desktop Style */
+@media (min-width: 768px) {
+    *,body{
+        padding: 0px;
+        margin: 0px;
+        font-family: Montserrat;
+        
+    }
+    
+    .navigation{
+        width: 100%;
+        background-color:  #FFF;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        width: auto;
+        height: 25px;
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+    
+    .menu_button, .menu_button2{
+        display: none;
+    }
+    
+    .menu li{
+        list-style-type: none;
+    }
+    
+    .menu ul>li>a{
+        text-decoration: none;
+        font-family: Montserrat;
+        margin-left: 5px;
+        margin-right: 10px;
+        color: #3e606f;
+        font-size: 13px;
+    }
+    
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+    
+    .menu-li3{
+        font-weight: 600;
+    }
+
+    /* Header */
+    .title{
+        font-family: Montserrat;
+        font-weight: 600;
+        text-align: center;
+        width: 50%;
+        height: 20%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 30px;
+    }
+
+    .header_img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .paragraf_div{
+        width: auto;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .paragraf_div p{
+        text-align: justify;
+        margin-bottom: 5%;
+        text-indent: 0.3in;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+
+    /* Body */
+    /* Kekerasan Seksual */
+    
+    .kekerasan_seksual{
+        width: 100%;
+        height: auto;
+    }
+
+    .title_ks, .fs_title{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 23px;
+        margin-left: 5%;
+        margin-top: 20%;
+
+    }
+
+    .img_content{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+
+    .subtitle_ks, .sub1{
+        margin-left: 5%;
+        font-family: Montserrat;
+        font-weight: bolder;
+        font-size: 17px;
+    }
+    
+    .langkah_ks h5, .langkah_bl h5, .cara_menghindari_fs h5{
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+
+    .langkah_ks p, .p_bl_container p, .langkah_bl p, .cara_menghindari_fs p{
+        text-align: justify;
+        margin-bottom: 2%;
+        text-indent: 0.3in;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+    }
+
+    .title_container, .subtitle_bly{
+        display: flex;
+        flex-direction: row;
+        font-family: Montserrat;
+        margin-left: 5%;
+    }
+
+    .title_bly2{
+        margin-left: 4px;
+        font-style: italic;
+        
+    }
+
+    .sub1{
+       margin-bottom: 10%;
+    } 
+
+    .title_container{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 23px;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+
+    .p_fs_container p, .p_fs7{
+        text-align: justify;
+        margin-bottom: 5%;
+        text-indent: 0.3in;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+    }
+
+    .sumber{
+        display: flex;
+        flex-direction: row;
+        font-family: Montserrat;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        font-size: 11px;
+    }
+
+    .text_sumber_sub{
+        margin-left: 2px;
+        color: blue;
+    }
+
+    #sb_title, #ms_title, #os_title{
+        font-size: 20px;
+        margin-top: 9%;
+    }
+
+    #os_subtitle{
+        font-weight: bolder;
+    }
+
+    #p_1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-indent: 0.3in;
+    }
+}

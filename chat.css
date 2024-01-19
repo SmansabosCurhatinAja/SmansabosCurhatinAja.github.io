@@ -1,0 +1,533 @@
+/* Mobile Style */
+@media (max-width: 768px) {
+    *,body{
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    .navigation{
+        width: 100%;
+        height: 40px;
+        background-color: #FFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo{
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 90px;
+        height: 29px;
+    }
+
+    .menu_button{
+        margin-top: 12px;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+    /* Menu */
+    .menu{
+        width: 116px;
+        height: 152px;
+        background: #3c949e;
+        padding-top: 12px;
+        position: fixed;
+        right: -200px;
+        top: 0%;
+        border-bottom-left-radius: 30px;
+    }
+
+    .menu_button2{
+        padding-right: 13px;
+    }
+
+    .menu-li2{
+        font-weight: 900;
+    }
+    .menu ul{
+       
+        color: #FFFFFF;
+        text-align: right;
+    }
+
+    .menu li{
+        list-style-type: none;
+        margin: 5px;
+        margin-right: 15px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 450;
+        padding-top: 3px;
+        
+    }
+
+    .menu a{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 13pt;
+    }
+
+    .slide-menu-tampil{
+        right: 0 !important;
+    }
+
+    /* Chat Div */
+    .chat_div{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_text{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+        width: 80%;
+        width: auto;
+        margin-right: 50px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 10%;;
+    }
+
+    /* Person */
+
+    .person1{
+        border-radius: 10px;
+        background: #5092A1;
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .pfp1{
+        width: 15%;
+        height: 15%;
+        border-radius:100% ;
+        border: 2px solid white;
+        padding: 5px;
+    }
+
+    .name1{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .jadwal_text{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        position: relative;
+    }
+
+    .jadwal a{
+        color: #5091A1;
+        font-family: Montserrat;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #FFF;
+        width: auto;
+        height: auto;
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px 2px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .p1_desc p{ 
+        color: #FFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        /* margin-bottom: 26px; */
+    }
+
+    .chat_button{
+        width: auto;
+        background-color: #FFF;
+        text-decoration: none;
+        color: #5091A1;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 6px 28px;
+        border-radius: 30px;  
+        margin: 6%;
+        text-align: center; 
+    }
+    .p1_up{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .p1_info{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        height: 100%;
+    }
+
+    .jadwal{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 2% 0%;
+        position: relative;
+       
+    }
+
+    .p1_info-sub{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        height: 10%;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+    
+}
+
+/* Desktop Style */
+@media (min-width: 768px) {
+    *,body{
+        padding: 0px;
+        margin: 0px;
+        font-family: Montserrat;
+    }
+    
+    .navigation{
+        width: 100%;
+        background-color:  #fff;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        width: auto;
+        height: 25px;
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+    
+    .menu_button, .menu_button2{
+        display: none;
+    }
+    
+    .menu li{
+        list-style-type: none;
+    }
+    
+    .menu ul>li>a{
+        text-decoration: none;
+        font-family: Montserrat;
+        margin-left: 5px;
+        margin-right: 10px;
+        color: #3e606f;
+        font-size: 13px;
+    }
+    
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+    
+    .menu-li2{
+        font-weight: 600;
+    }
+
+/* Chat Div */
+    .chat_div{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_text{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+        width: auto;
+        margin-right: 50px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 10%;
+    }
+
+    /* Person */
+
+    .person1{
+        border-radius: 10px;
+        background: #5092A1;
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .pfp1{
+        width: 15%;
+        height: 15%;
+        border-radius:100% ;
+        border: 2px solid white;
+        padding: 2px;
+    }
+
+    .name1{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .jadwal_text{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        position: relative;
+    }
+
+    .jadwal a{
+        color: #5091A1;
+        font-family: Montserrat;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #FFF;
+        width: auto;
+        height: auto;
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px 2px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .p1_desc p{ 
+        color: #FFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        /* margin-bottom: 26px; */
+    }
+
+    .chat_button{
+        width: auto;
+        background-color: #FFF;
+        text-decoration: none;
+        color: #5091A1;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 6px 28px;
+        border-radius: 30px;  
+        margin: 6%;
+        text-align: center; 
+    }
+    .p1_up{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .p1_info{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        height: 100%;
+    }
+
+    .jadwal{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 2% 0%;
+        position: relative;
+       
+    }
+
+    .p1_info-sub{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        height: 100%;
+        margin-left: 2%;
+    }
+     
+    /* Chat Div */
+    .chat_div{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_text{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+        width: 80%;
+        width: auto;
+        margin-right: 50px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 10%;;
+    }
+
+    /* Person */
+
+    .person1{
+        border-radius: 10px;
+        background: #5092A1;
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -5%;
+        margin-bottom: 8%;
+    }
+
+    .pfp1{
+        width: 11%;
+        height: 11%;
+        border-radius:100% ;
+        border: 2px solid white;
+        padding: 2px;
+    }
+
+    .name1{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .jadwal_text{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        position: relative;
+    }
+
+    .jadwal a{
+        color: #5091A1;
+        font-family: Montserrat;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #FFF;
+        width: auto;
+        height: auto;
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px 2px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .p1_desc p{ 
+        color: #FFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        /* margin-bottom: 26px; */
+    }
+
+    .chat_button{
+        width: auto;
+        background-color: #FFF;
+        text-decoration: none;
+        color: #5091A1;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 6px 28px;
+        border-radius: 30px;  
+        margin: 6%;
+        text-align: center; 
+    }
+    .p1_up{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .p1_info{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        height: 100%;
+    }
+
+    .jadwal{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 2% 0%;
+        position: relative;
+       
+    }
+
+    .p1_info-sub{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        height: 10%;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+    
+}
